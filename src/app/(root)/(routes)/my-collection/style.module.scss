@@ -1,0 +1,52 @@
+.mainlayout {
+	@apply flex h-full;
+	padding: 15px 0px 15px 10px;
+	gap: 15px;
+	overflow: auto;
+  position: relative;
+}
+
+.provaider{
+  @apply px-6 rounded-2xl;
+  overflow: auto;
+  border: 1px solid #8585853c;
+  min-height: 806px;
+  background: #242424;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.searchHover{
+  @apply w-[200px] flex-col  flex relative;
+}
+
+.modalsearchHover{
+  @apply flex  rounded-[10%] justify-center items-center absolute top-0 left-0 right-0 bottom-0;
+  background: #9f9f9f81;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.bga{
+  @apply relative flex justify-center;
+
+}
+
+.modalsearchHoverActive{
+  @apply flex  rounded-[10%] justify-center items-center absolute top-0 left-0 right-0 bottom-0;
+  background: #9f9f9f81;
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+
+.searchHover:hover{
+  .modalsearchHover{
+    opacity: 1;
+  }
+}
+
+.playbtn {
+  @apply hover:scale-115 z-20 transition duration-100;
+}
+

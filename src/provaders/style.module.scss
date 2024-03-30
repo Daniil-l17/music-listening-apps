@@ -1,0 +1,105 @@
+.mainlayout {
+	@apply flex h-full;
+	padding: 15px 0px 15px 10px;
+	gap: 15px;
+	overflow: auto;
+  position: relative;
+}
+
+.provaider{
+  @apply px-6 rounded-2xl;
+  overflow: auto;
+  border: 1px solid #8585853c;
+  min-height: 806px;
+  background: #242424;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.searchHover{
+  @apply w-[200px] flex-col  flex relative;
+}
+
+.modalsearchHover{
+  @apply flex  rounded-[10%] justify-center items-center absolute top-0 left-0 right-0 bottom-0;
+  background: #9f9f9f81;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.hoverActive{
+  @apply relative rounded-[10%] w-[200px] h-[200px] cursor-pointer;
+}
+
+.banner{
+  @apply bg-[#373737ce] rounded-2xl relative;
+  transition: all 500ms ease; 
+  border-radius: 16px;
+}
+
+
+.banner:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 400px;
+	background: rgba(255,255,255,0.3);
+  border-radius: 16px;
+	transition: all 2s ease;
+}
+
+.banner:hover:before {
+	width: 100%;
+  border-radius: 16px;
+}
+
+.modalsearchHoverAlbums{
+  @apply flex  rounded-[5%] justify-center items-center absolute top-0 left-0 right-0 bottom-0;
+  background: #9f9f9f81;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.hoverActive:hover{
+  .modalsearchHoverAlbums{
+    opacity: 1;
+  }
+}
+
+
+
+.hoverActive:hover{
+  .modalsearchHover{
+    opacity: 1;
+  }
+}
+
+.bga{
+  @apply relative flex justify-center;
+
+}
+
+
+
+.modalsearchHoverActive{
+  @apply flex  rounded-[10%] justify-center items-center absolute top-0 left-0 right-0 bottom-0;
+  background: #9f9f9f81;
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+
+.playbtn {
+  @apply hover:scale-110 transition duration-100;
+}
+
+.playbtnres {
+  @apply hover:scale-110 transition duration-100;
+}
+
+
+.art{
+  @apply flex hover:gap-3 items-center gap-2;
+}
