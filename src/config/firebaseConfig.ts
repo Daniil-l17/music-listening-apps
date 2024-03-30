@@ -3,20 +3,23 @@ import {getAuth} from 'firebase/auth'
 import {getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: process.env.apiKey,
 
-  authDomain: process.env.authDomain,
+  apiKey: "AIzaSyCkaHLR6xTBpL5Gw9YwAHOkgG7jURKVUvs",
 
-  projectId: process.env.projectId,
+  authDomain: "music-ead20.firebaseapp.com",
 
-  storageBucket: process.env.storageBucket,
+  projectId: "music-ead20",
 
-  messagingSenderId: process.env.messagingSenderId,
+  storageBucket: "music-ead20.appspot.com",
 
-  appId: process.env.appId,
+  messagingSenderId: "306375561002",
 
-  measurementId: process.env.measurementId,
-}
+  appId: "1:306375561002:web:69fc2bcdd69f51fc995853",
+
+  measurementId: "G-07K8CLZW4T"
+
+};
+
 
 const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app)
