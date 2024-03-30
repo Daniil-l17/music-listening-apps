@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Приложения для прослушивания музыки
 
-## Getting Started
+Это приложение было создано с помощью React, NextJS, Redux Toolkit,firebase, Redux Persist,RTK Query и TailwindCSS.
 
-First, run the development server:
+
+
+## Features
+
+- Слушайте свою любимую музыку
+
+- Попадание в топ-чарты России
+
+ - Получение всей информации о песне
+
+ - Сохранения истории поиска
+
+ - Получение всей информации об исполнителе
+
+ - Пользовательский плеер
+
+ - авторизация аккаунта
+
+  - добовлять в избранное
+
+ - Подгрузка данных с помощью React-intersection-observer
+
+ - Получение Альбома Артиста
+
+ - Сохранение музыкальных данных, чтобы они не приостанавливались на других страницах.
+
+ - Кроссбраузерное приложение
+ 
+-  Красивые анимации
+
+## Deployment: [CLICK](https://music-listening-apps.vercel.app/)
+
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+https://github.com/Daniil-l17/music-listening-apps.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Start the app in dev
 
-## Learn More
+```bash
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the app in production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+then
 
-## Deploy on Vercel
+```bash
+yarn start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![изображение](https://github.com/Daniil-l17/music-listening-apps/assets/129774580/9874e36e-6d5a-400e-aa88-0dd4b2eaf49f)
+
+![изображение](https://github.com/Daniil-l17/music-listening-apps/assets/129774580/5fed7404-970a-492e-a3f5-2751bace2a4b)
+
+
+![изображение](https://github.com/Daniil-l17/music-listening-apps/assets/129774580/993dd6c3-9dfa-4a99-b4ff-85cbb3fd8f8e)
+
+
+![изображение](https://github.com/Daniil-l17/music-listening-apps/assets/129774580/3cc23879-0420-4d9f-a8dc-670d93dece85)
+
+![изображение](https://github.com/Daniil-l17/music-listening-apps/assets/129774580/40f33c7b-849f-469f-b3c8-6927d1eddcac)
