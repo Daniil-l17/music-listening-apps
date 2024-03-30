@@ -49,6 +49,7 @@ export const TrackComponent = ({
               ) : (
                 <Play
                   onClick={() => {
+                    //@ts-ignore
                     db(actions.AllSongs(data.data[0].views['top-songs'].data))
                     db(actions.addMet('artist'))
                     db(actions.currentIndexTrack(index))
