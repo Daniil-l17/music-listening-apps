@@ -38,7 +38,7 @@
 Ссылка на сайт
 
 ```bash
-https://search-react-weld.vercel.app/
+https://search-react-weld.vercel.app/](https://music-listening-apps.vercel.app/
 ```
 
 Клонировать проект
