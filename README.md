@@ -32,37 +32,40 @@
  
 -  Красивые анимации
 
-## Deployment: [CLICK](https://music-listening-apps.vercel.app/)
 
+## Запускается локально
 
+Ссылка на сайт
 
-## Run Locally
+```bash
+https://search-react-weld.vercel.app/
+```
 
-Clone the project
+Клонировать проект
 
 ```bash
 https://github.com/Daniil-l17/music-listening-apps.git
 ```
 
-Install dependencies
+Устанавливать зависимости
 
 ```bash
 yarn install
 ```
 
-Start the app in dev
+Запустите приложение в dev
 
 ```bash
 yarn dev
 ```
 
-Start the app in production
+Запустите приложение в рабочем режиме
 
 ```bash
 yarn build
 ```
 
-then
+Затем
 
 ```bash
 yarn start
